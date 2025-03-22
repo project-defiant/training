@@ -4,7 +4,6 @@
  * Collect uppercase greetings into a single output file
  */
 process collectGreetings {
-
     publishDir 'results', mode: 'copy'
 
     input:
